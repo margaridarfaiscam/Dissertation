@@ -32,7 +32,7 @@ gbsa_model_comp4 = load('best_gbsa_model_comp4.pkl')
 svm_model_comp4 = load('best_svm_model_comp4.pkl')
 
 # Load and preprocess the dataset
-wc_file = r'C:\Users\marga\Desktop\New folder\machine1_data_final.csv'
+wc_file = r'C:\Users\marga\Desktop\Dissertation\machine1_data_final.csv'
 x_features_comp1 = ['volt', 'rotate', 'pressure', 'vibration', 'cycle_comp1']
 x_features_comp2 = ['volt', 'rotate', 'pressure', 'vibration', 'cycle_comp2']
 x_features_comp3 = ['volt', 'rotate', 'pressure', 'vibration', 'cycle_comp3']
