@@ -17,9 +17,9 @@
     from joblib import dump
     warnings.filterwarnings("ignore")
 
-    wc_file = r'C:\Users\marga\Desktop\new_data_comparacao\machine1_data_final.csv'
+    wc_file = r'C:\Users\marga\Desktop\Dissertation\machine1_data_final.csv'
     x_features = ['volt', 'rotate', 'pressure', 'vibration', 'cycle_comp2']
-    df_wc = pd.read_csv(r'C:\Users\marga\Desktop\new_data_comparacao\machine1_data_final.csv')
+    df_wc = pd.read_csv(r'C:\Users\marga\Desktop\Dissertation\machine1_data_final.csv')
     df_wc['datetime'] = pd.to_datetime(df_wc['datetime'], format='%d/%m/%Y %H:%M')
 
     # convert replace to status col
